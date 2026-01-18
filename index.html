@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commrce</title>
+    <link rel="stylesheet" href="./public/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div id="root">
+    <!-- statr nav bar -->
+<nav class="navBarDiv">
+
+    <div class="left">
+<div class="inputSearch">
+    <select>
+        <option value="">Categories</option>
+        <option value="Electonics">Electonics</option>
+        <option value="Clothing">leftFoods</option>
+        <option value="Health & Beauty">Health & Beauty</option>
+        <option value="Watches">Watches</option>
+        <option value="Jewellery">Jewellery</option>
+        <option value="Shoes">Shoes</option>
+        <option value="T-Shirt">T-Shirt</option>
+    </select> 
+    <div class="search">
+        <input type="text" placeholder="Search Here ...">
+<button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</div>
+</div>
+    <div class="right">
+        <ul>
+            <li>Home</li>
+            <li>Electonics</li>
+            <li>Foods</li>
+            <li>Cloths Men's</li>
+            <li>Cloths Women's</li>
+            <li>Smart Phone</li>
+            <li>Shoes</li>
+            <li>T-Shirt</li>
+        </ul>
+<p>Todays Offers</p>
+    </div>
+</nav>
+   </div>
+
+
+   <!-- start section two -->
+
+
+   <div class="constiner">
+    <div class="leftSidebar">
+    
+        <ul>
+            <h2><span>Categories</span> <i class="fa-solid fa-list"></i></h2> 
+            <li><i class="fa-solid fa-tv"></i> <span>Electonics</span> </li>
+            <li><i class="fa-solid fa-shirt"></i> <span>Foods</span> </li>
+            <li><i class="fa-solid fa-hat-cowboy"></i><span>Cloths Men's</span> </li>
+            <li><i class="fa-solid fa-alarm-clock"></i> <span>Cloths Women's</span></li>
+            <li><i class="fa-brands fa-web-awesome"></i> <span>Smart Phone</span></li>
+            <li><i class="fa-solid fa-shoe-prints"></i> <span>Shoes</span></li>
+            <li><i class="fa-regular fa-address-card"></i> <span>T-Shirt</span></li>
+<li ><button id="logOut">Logout</button></li>
+        </ul>
+  
+    </div>
+    <div class="ContentText">
+<div class="text">
+    <h3>SPRING 2026</h3>
+    <h1>Women <br> Fashion </h1>
+    <p>Every product is carefully selected to ensure quality, comfort, and style.
+Whether you’re looking for everyday wear or something special, [SP Son's ] has something just for you.
+
+We believe fashion is not just about clothes — it’s about confidence.</p>
+<button>Shop Now</button>
+</div>
+</div>
+   </div>
+   <div class="bottom">
+    <div class="box"><p>Money Back</p><p>30 Days Money Back Guarantee</p></div>
+    <div class="box"><p>Free Shipping</p><p>Shipping on orders over $99</p></div>
+    <div class="box"><p>Special Sale</p><p>Exrta $5 off  on all items</p></div>
+</div>
+
+
+<!-- satrt my product Items -->
+<div class="heading">
+    <div class="bars"><h1>Electonics Products</h1> <div class="btns">
+        <button  id="left"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="right"><i class="fa-solid fa-arrow-right"></i></button>
+    </div> </div>
+</div>
+
+    <div class="electronics">
+        
+    </div>
+
+    <!-- start Foods items -->
+
+    <div class="heading">
+    <div class="bars"><h1>Foods Products</h1> <div class="btns">
+        <button  id="leftFoods"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="rightFoods"><i class="fa-solid fa-arrow-right"></i></button>
+    </div> </div>
+</div>
+
+    <div class="Foods">
+        
+    </div>
+
+    <!-- start Cloths Mens Products -->
+
+        <div class="heading">
+    <div class="bars"><h1>Cloths Men's Products</h1> <div class="btns">
+        <button  id="leftCloths"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="rightCloths"><i class="fa-solid fa-arrow-right"></i></button>
+    </div> </div>
+</div>
+
+    <div class="Cloths">
+        
+    </div>
+
+    <!-- start Womens Cloths -->
+
+        <div class="heading">
+    <div class="bars"><h1>Cloths Women's Products</h1> <div class="btns">
+        <button  id="leftWomen"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="rightWomen"><i class="fa-solid fa-arrow-right"></i></button>
+    </div> </div>
+</div>
+
+    <div class="Womens">
+        
+    </div>
+
+
+    <!-- start Phone -->
+
+    
+        <div class="heading">
+    <div class="bars"><h1>Smart Phone's Products</h1> <div class="btns">
+        <button   id="leftPhone"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="rightPhone"><i class="fa-solid fa-arrow-right"></i></button>
+    </div> </div>
+</div>
+
+    <div class="Phone">
+        
+    </div>
+
+<div class="cartIcons">
+    
+    <i class="fa-solid fa-cart-arrow-down" id="cartAdd"></i>
+</div>
+<!-- start Cart Box -->
+
+
+<div class="CartBox" id="CartBox">
+<div class="top" id="top">
+   
+</div>
+<div class="bottom">
+    <p>Totle Amount </p>
+    <p id="totlePrice">100</p>
+</div>
+<div class="bottom">
+   <button id="done">Payment Done</button>
+</div>
+</div>
+    <script src="./public/app.js"></script>
+</body>
+</html>
